@@ -9727,3 +9727,39 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
+.hero-home {
+  padding-top: 120px;
+  padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-home_title {
+  background: #f5c207;
+  display: inline-block;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: 'Roboto Slab';
+  margin-bottom: 25px;
+}
+
+.hero-home_excerpt {
+  background: #f5c207;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-home_btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-top: 15px;
+}
