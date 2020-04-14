@@ -9723,11 +9723,6 @@ a.text-dark:hover, a.text-dark:focus {
   bottom: 10px;
 }
 
-.section {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
 .hero-home {
   padding-top: 120px;
   padding-bottom: 170px;
@@ -9759,7 +9754,57 @@ a.text-dark:hover, a.text-dark:focus {
 .hero-home_btn {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 15px;
+  font-weight: bold;
+  font-size: 19px;
+  border-bottom: 2px solid #1661a4;
+}
+
+section h2 {
+  font-family: 'Roboto Slab';
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-family: 'Roboto';
+  font-style: 18px;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.course-section {
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+
+.course-section_row {
+  margin-top: 40px;
+}
+
+.course-section_col {
+  padding: 0px;
+}
+
+.course-section .card {
+  border: none;
+  border-radius: 0px;
+}
+
+.course-section .card .card-img, .course-section .card .card-img-top {
+  border-radius: 0px;
+}
+
+.course-section .card-body {
+  background: #1661a4;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  opacity: 0.902;
 }
