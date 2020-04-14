@@ -9885,3 +9885,12 @@ section p {
   max-width: 735px;
   margin: 0 auto;
 }
+
+.section-latest-news {
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.section-latest-news .card {
+  border: none;
+}
