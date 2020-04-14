@@ -181,3 +181,36 @@ section {
         border: none;
     }
 }
+.section {
+   
+    &_title {
+        background: $yello-color;
+        display: inline-block;
+        color: $white-color;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-family: 'Roboto Slab';
+        margin-bottom: 10px;
+    }
+    &_button {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        font-size: 19px;
+        border-bottom: 2px solid #1661a4;
+    }
+}
+.section-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap:wrap;
+    a{
+        color: #fff;
+        text-align: center;
+    }
+}
