@@ -9701,6 +9701,14 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab';
+}
+
+p {
+  font-family: 'Roboto';
+}
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -9818,4 +9826,62 @@ section p {
 .section-howdoes {
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.section-services {
+  background: #f7b900;
+}
+
+.section-services img {
+  margin-bottom: 25px;
+}
+
+.section-services h4 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-services p {
+  font-size: 18px;
+}
+
+.section-testiomonial {
+  background: #efefef;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.section-testiomonial .swiper-container {
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: top left;
+  opacity: 0.902;
+}
+
+.section-testiomonial .swiper-container .card {
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.section-testiomonial .swiper-wrapper {
+  padding-top: 115px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-testiomonial .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-testiomonial .swiper-wrapper .swiper-slide p {
+  max-width: 735px;
+  margin: 0 auto;
 }
