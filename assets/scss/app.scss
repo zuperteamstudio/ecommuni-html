@@ -1,0 +1,31 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "bootstrap/bootstrap";
+
+// Your style
+@import "variables";
+@import "mixins";
+@import "general";
+@import "layout";
+@import "module";
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-item {
+    margin-left: 45px;
+    .nav-link {
+        color: $black-color;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 16px;
+        position: relative;
+        img {
+            position: relative;
+            bottom: 10px;
+        }
+    }
+}
