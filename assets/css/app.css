@@ -9808,3 +9808,14 @@ section p {
   bottom: 0px;
   opacity: 0.902;
 }
+
+.section-should {
+  background-repeat: no-repeat;
+  background-color: #efefef;
+  background-position: left;
+}
+
+.section-howdoes {
+  background-repeat: no-repeat;
+  background-position: right;
+}
