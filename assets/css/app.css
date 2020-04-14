@@ -9722,3 +9722,8 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   bottom: 10px;
 }
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
