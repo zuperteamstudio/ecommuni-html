@@ -9707,7 +9707,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 19px;
   border-bottom: 2px solid #1661a4;
@@ -9842,13 +9841,8 @@ section p {
   background-position: left;
 }
 
-.section-howdoes {
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
 .section-services {
-  background: #f7b900;
+  background: linear-gradient(180deg, #ffde00 0%, #f5af00 100%);
 }
 
 .section-services img {
@@ -9858,10 +9852,26 @@ section p {
 .section-services h4 {
   font-size: 26px;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
 .section-services p {
   font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.section-services p a {
+  font-size: 18px;
+}
+
+.section-services ol li {
+  font-size: 18px;
+}
+
+.section-services ol li a {
+  text-decoration: underline;
+  color: #1661a4;
 }
 
 .section-testiomonial {
@@ -9958,6 +9968,16 @@ section p {
   color: #0094de;
   text-decoration: underline;
   font-size: 18px;
+}
+
+.section .d-flex {
+  align-items: center;
+  vertical-align: center;
+  display: flex;
+}
+
+.section .d-flex a {
+  margin-right: 15px;
 }
 
 .section_title {
@@ -10104,18 +10124,71 @@ section p {
   font-size: 18px;
 }
 
-.section-did-you-know .d-flex {
-  align-items: center;
-  vertical-align: center;
-  display: flex;
-}
-
-.section-did-you-know .d-flex a {
-  margin-right: 15px;
-}
-
 .section-did-you-know .btn-outline {
   background: none;
   color: #0094de;
   border: 1px solid #0094de;
+}
+
+.section-howdoes {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.section-howdoes p {
+  font-size: 18px;
+}
+
+.section-howdoes ol {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.section-howdoes ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.section-howdoes ol li::before {
+  content: counter(my-awesome-counter);
+  color: #fcd000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 30px;
+  left: calc(-1 * var(--size) - 20px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  line-height: var(--size);
+  color: #fff;
+  background: #f5af00;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 9;
+}
+
+.section-howdoes ol li::after {
+  content: '';
+  position: absolute;
+  --size: 40px;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: -5px;
+  line-height: var(--size);
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #ddd;
 }
