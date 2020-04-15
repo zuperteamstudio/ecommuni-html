@@ -13,6 +13,20 @@
  
 .btn-primary {
     background-color: #0094de;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 19px;
+    border-bottom: 2px solid #1661a4;
+    text-decoration: none;
+}
+a {
+    color: #0094de;
+        text-decoration: underline;
+        font-size: 15px;
 }
 h1,h2,h3,h4,h5 {
     font-family: 'Roboto Slab';
@@ -321,5 +335,44 @@ section {
             color: #666666;
             font-size: 12px;
         }
+    }
+}
+
+.section-did-you-know {
+    padding-top: 90px;
+    padding-bottom: 85px;
+    h4 {
+        font-weight: bold;
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .quote-text 
+    {
+        i {
+            font-size: 35px;
+            font-weight: lighter;
+        }
+        small {
+            font-size: 14px;
+        }
+    }
+    p {
+        font-size: 18px;
+    }
+    .d-flex {
+        align-items: center;
+        vertical-align: center;
+        display: flex;
+        a {
+            margin-right: 15px;
+        }
+    }
+    .btn-outline {
+        background: none;
+        color: #0094de;
+        border: 1px solid #0094de;
     }
 }

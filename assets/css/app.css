@@ -9703,6 +9703,21 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-primary {
   background-color: #0094de;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 19px;
+  border-bottom: 2px solid #1661a4;
+  text-decoration: none;
+}
+
+a {
+  color: #0094de;
+  text-decoration: underline;
+  font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -10059,4 +10074,48 @@ section p {
 .footer .footer-bottom .copyright {
   color: #666666;
   font-size: 12px;
+}
+
+.section-did-you-know {
+  padding-top: 90px;
+  padding-bottom: 85px;
+}
+
+.section-did-you-know h4 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.section-did-you-know h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-did-you-know .quote-text i {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.section-did-you-know .quote-text small {
+  font-size: 14px;
+}
+
+.section-did-you-know p {
+  font-size: 18px;
+}
+
+.section-did-you-know .d-flex {
+  align-items: center;
+  vertical-align: center;
+  display: flex;
+}
+
+.section-did-you-know .d-flex a {
+  margin-right: 15px;
+}
+
+.section-did-you-know .btn-outline {
+  background: none;
+  color: #0094de;
+  border: 1px solid #0094de;
 }
