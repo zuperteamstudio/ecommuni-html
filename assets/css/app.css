@@ -9835,12 +9835,6 @@ section p {
   opacity: 0.902;
 }
 
-.section-should {
-  background-repeat: no-repeat;
-  background-color: #efefef;
-  background-position: left;
-}
-
 .section-services {
   background: linear-gradient(180deg, #ffde00 0%, #f5af00 100%);
 }
@@ -9980,6 +9974,10 @@ section p {
   margin-right: 15px;
 }
 
+.section p, .section ul li, .section a {
+  font-size: 18px;
+}
+
 .section_title {
   background: #f5c207;
   display: inline-block;
@@ -10028,72 +10026,6 @@ section p {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 35px;
-}
-
-.footer {
-  background: #404040;
-  color: #fff;
-  padding-top: 60px;
-  padding-bottom: 35px;
-}
-
-.footer p, .footer ul li {
-  font-size: 15px;
-}
-
-.footer ul {
-  padding: 0px;
-  padding-left: 15px;
-}
-
-.footer a {
-  color: #0094de;
-  text-decoration: underline;
-  font-size: 15px;
-}
-
-.footer .list-menu {
-  list-style: none;
-}
-
-.footer .list-menu li {
-  color: #0094de;
-  text-decoration: underline;
-}
-
-.footer .list-menu li:before {
-  content: "\f054";
-  /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1.3em;
-  /* same as padding-left set on li */
-  width: 1.3em;
-  /* same as padding-left set on li */
-  font-size: 8px;
-}
-
-.footer h4 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.footer .footer-center {
-  border-top: 1px solid  #666666;
-  border-bottom: 1px solid #666666;
-  padding-top: 55px;
-  margin-top: 55px;
-  padding-bottom: 55px;
-}
-
-.footer .footer-bottom {
-  padding-top: 22px;
-}
-
-.footer .footer-bottom .copyright {
-  color: #666666;
-  font-size: 12px;
 }
 
 .section-did-you-know {
@@ -10191,4 +10123,95 @@ section p {
   border-radius: 50%;
   text-align: center;
   box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.section-should {
+  background-repeat: no-repeat;
+  background-color: #efefef;
+  background-position: left bottom;
+}
+
+.section-should ul {
+  padding: 0px;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.section-should ul li:before {
+  content: "\f00c";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+  color: #f5af00;
+  font-size: 28px;
+}
+
+.footer {
+  background: #404040;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.footer p, .footer ul li {
+  font-size: 15px;
+}
+
+.footer ul {
+  padding: 0px;
+  padding-left: 15px;
+}
+
+.footer a {
+  color: #0094de;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.footer .list-menu {
+  list-style: none;
+}
+
+.footer .list-menu li {
+  color: #0094de;
+  text-decoration: underline;
+}
+
+.footer .list-menu li:before {
+  content: "\f054";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+  font-size: 8px;
+}
+
+.footer h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .footer-center {
+  border-top: 1px solid  #666666;
+  border-bottom: 1px solid #666666;
+  padding-top: 55px;
+  margin-top: 55px;
+  padding-bottom: 55px;
+}
+
+.footer .footer-bottom {
+  padding-top: 22px;
+}
+
+.footer .footer-bottom .copyright {
+  color: #666666;
+  font-size: 12px;
 }
