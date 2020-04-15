@@ -9835,6 +9835,35 @@ section p {
   opacity: 0.902;
 }
 
+.course-section .card-body:hover {
+  background: #032a4d;
+}
+
+.course-section .card-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.course-section .card-link:after {
+  content: "\f054";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+  font-size: 18px;
+  right: 25px;
+  top: 40%;
+}
+
+.course-section .card-link .card-text {
+  color: #4cc3ff;
+}
+
 .section-services {
   background: linear-gradient(180deg, #ffde00 0%, #f5af00 100%);
 }
