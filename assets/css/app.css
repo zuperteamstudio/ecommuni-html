@@ -9701,6 +9701,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.btn-primary {
+  background-color: #0094de;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab';
 }
@@ -9905,6 +9909,9 @@ section p {
   padding-top: 15px;
   font-family: 'Roboto Slab';
   margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  opacity: 0.902;
 }
 
 .section_button {
@@ -9915,6 +9922,7 @@ section p {
   font-weight: bold;
   font-size: 19px;
   border-bottom: 2px solid #1661a4;
+  margin-bottom: 15px;
 }
 
 .section-bg {
@@ -9927,6 +9935,11 @@ section p {
 .section-bg a {
   color: #fff;
   text-align: center;
+}
+
+.section-bg .text-money-back {
+  margin-left: 70px;
+  text-decoration: underline;
 }
 
 .section-logo {
@@ -9943,13 +9956,46 @@ section p {
   padding-bottom: 35px;
 }
 
-.footer p {
+.footer p, .footer ul li {
   font-size: 15px;
+}
+
+.footer ul {
+  padding: 0px;
+  padding-left: 15px;
+}
+
+.footer a {
+  color: #0094de;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.footer .list-menu {
+  list-style: none;
+}
+
+.footer .list-menu li {
+  color: #0094de;
+  text-decoration: underline;
+}
+
+.footer .list-menu li:before {
+  content: "\f054";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+  font-size: 8px;
 }
 
 .footer h4 {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .footer .footer-center {
@@ -9961,7 +10007,7 @@ section p {
 }
 
 .footer .footer-bottom {
-  padding-top: 35px;
+  padding-top: 22px;
 }
 
 .footer .footer-bottom .copyright {

@@ -10,7 +10,10 @@
 @import "general";
 @import "layout";
 @import "module";
-
+ 
+.btn-primary {
+    background-color: #0094de;
+}
 h1,h2,h3,h4,h5 {
     font-family: 'Roboto Slab';
 }
@@ -193,6 +196,9 @@ section {
         padding-top: 15px;
         font-family: 'Roboto Slab';
         margin-bottom: 10px;
+        font-size: 48px;
+        font-weight: bold;
+        opacity: 0.902;
     }
     &_button {
         padding-left: 40px;
@@ -202,6 +208,7 @@ section {
         font-weight: bold;
         font-size: 19px;
         border-bottom: 2px solid #1661a4;
+        margin-bottom: 15px;
     }
 }
 .section-bg {
@@ -212,6 +219,11 @@ section {
     a{
         color: #fff;
         text-align: center;
+        
+    }
+    .text-money-back {
+        margin-left: 70px;
+        text-decoration: underline;
     }
 }
 
@@ -226,12 +238,37 @@ section {
     color: #fff;
     padding-top: 60px;
     padding-bottom: 35px;
-    p {
+    p,ul li {
         font-size: 15px;
+    }
+    ul {
+        padding: 0px;
+        padding-left: 15px;
+    }
+    a {
+        color: #0094de;
+            text-decoration: underline;
+            font-size: 15px;
+    }
+    .list-menu {
+        list-style: none;
+        li {
+            color: #0094de;
+            text-decoration: underline;
+        }
+        li:before {
+            content: "\f054"; /* FontAwesome Unicode */
+            font-family: FontAwesome;
+            display: inline-block;
+            margin-left: -1.3em; /* same as padding-left set on li */
+            width: 1.3em; /* same as padding-left set on li */
+            font-size: 8px;
+          }
     }
     h4 {
         font-size: 20px;
         font-weight: bold;
+        margin-bottom: 20px;
     }
     .footer-center {
         border-top: 1px solid  #666666;
@@ -240,9 +277,10 @@ section {
         margin-top: 55px;
         padding-bottom: 55px;
         
+        
     }
     .footer-bottom {
-        padding-top: 35px;
+        padding-top: 22px;
         .copyright {
             color: #666666;
             font-size: 12px;
