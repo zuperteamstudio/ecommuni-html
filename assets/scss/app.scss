@@ -146,11 +146,25 @@ section {
     padding-bottom: 90px;
     background-repeat: no-repeat;
     background-position: bottom right;
+    .testimonial-text {
+        position: relative;
+        margin-bottom: 30px !important;
+        &::before {
+            content: "\f10d"; /* FontAwesome Unicode */
+            font-family: FontAwesome;
+            margin: auto;
+            position: absolute;
+            top: -70px; left: 0; bottom: 0; right: 0;
+            font-size: 40px;
+            color: #e0dddd;
+        }
+    }
     .swiper-container {
         background: #fff;
         background-repeat: no-repeat;
         background-position: top left;
         opacity: 0.902;
+       
         .card {
             border: none;
             margin-top: 30px;
@@ -180,8 +194,30 @@ section {
 .section-latest-news {
     padding-bottom: 50px;
     padding-top: 70px;
+    h3 {
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: #212323;
+    }
     .card {
         border: none;
+        .card-block {
+            padding-left: 20px;
+            .card-title {
+                font-size: 24px;
+                font-weight: bold;
+                color: #212323;
+            }
+            .card-text {
+                font-size: 18px;
+                color: #253233;
+            }
+            a {
+                color: #0094de;
+                text-decoration: underline;
+                font-size: 18px;
+            }
+        }
     }
 }
 .section {

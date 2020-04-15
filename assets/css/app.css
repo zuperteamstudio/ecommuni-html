@@ -9857,6 +9857,25 @@ section p {
   background-position: bottom right;
 }
 
+.section-testiomonial .testimonial-text {
+  position: relative;
+  margin-bottom: 30px !important;
+}
+
+.section-testiomonial .testimonial-text::before {
+  content: "\f10d";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  margin: auto;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+  color: #e0dddd;
+}
+
 .section-testiomonial .swiper-container {
   background: #fff;
   background-repeat: no-repeat;
@@ -9895,8 +9914,35 @@ section p {
   padding-top: 70px;
 }
 
+.section-latest-news h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #212323;
+}
+
 .section-latest-news .card {
   border: none;
+}
+
+.section-latest-news .card .card-block {
+  padding-left: 20px;
+}
+
+.section-latest-news .card .card-block .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212323;
+}
+
+.section-latest-news .card .card-block .card-text {
+  font-size: 18px;
+  color: #253233;
+}
+
+.section-latest-news .card .card-block a {
+  color: #0094de;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 .section_title {
