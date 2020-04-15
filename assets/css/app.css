@@ -9742,6 +9742,7 @@ p {
   font-weight: bold;
   font-size: 16px;
   position: relative;
+  text-decoration: none;
 }
 
 .nav-item .nav-link img {
@@ -10051,10 +10052,16 @@ section p {
 }
 
 .section-logo {
-  background: #efefef;
+  background: #ffffff;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 35px;
+}
+
+.section-logo h5 {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
 }
 
 .section-did-you-know {
@@ -10220,6 +10227,7 @@ section p {
   width: 1.3em;
   /* same as padding-left set on li */
   font-size: 8px;
+  color: #fff;
 }
 
 .footer h4 {
