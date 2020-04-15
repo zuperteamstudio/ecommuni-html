@@ -9928,3 +9928,43 @@ section p {
   color: #fff;
   text-align: center;
 }
+
+.section-logo {
+  background: #efefef;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.footer {
+  background: #404040;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+.footer h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .footer-center {
+  border-top: 1px solid  #666666;
+  border-bottom: 1px solid #666666;
+  padding-top: 55px;
+  margin-top: 55px;
+  padding-bottom: 55px;
+}
+
+.footer .footer-bottom {
+  padding-top: 35px;
+}
+
+.footer .footer-bottom .copyright {
+  color: #666666;
+  font-size: 12px;
+}
